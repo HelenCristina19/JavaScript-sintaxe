@@ -30,9 +30,21 @@ switch (opcao) { //escolha
 
 
 //enquanto
-let contador = 0;
-   while (contador < 10) {
-   console.log(++contador);
-   
+do{
+    console.log(contador++)
 }
+while (contador < 10) 
+
+//para
+
+function principal(mensagem) {
+    for (let i = 0; i < 5; i++) {
+        console.log(i);
+    }  
+
+    console.log(mensagem); 
+}
+
+principal("Esta é a mensagem");
+
 
